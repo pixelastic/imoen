@@ -1,10 +1,10 @@
 ---
-title: imoen
+title: Low quality image placeholders
 ---
 
-# imoen
+> Heya! It's me, Imoen!
 
-Simple image processing for nodejs.
+Image processing for nodejs.
 
 ```
 const imoen = require('imoen');
