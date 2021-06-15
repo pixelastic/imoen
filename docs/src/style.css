@@ -8,10 +8,10 @@ body {
   /* Overwrites color of icons as the default theme is gray, which works fine on
    * light background but fails on solid colors
    **/
-  .theme-icons, .theme-icons a {
+  .theme-icons, .theme-icons a, .theme-menu label {
     @apply pink-2;
   }
-  .theme-icons a:hover {
+  .theme-icons a:hover, .theme-menu label:hover {
     @apply pink-2 opacity-75p;
   }
   /* Change the current page marker color in the sidebar */
@@ -37,10 +37,4 @@ body {
     /* Change the color of the underline of hovered links */
     @apply underline-blue-5;
   }
-}
-
-/* Force overwriting the color of svgs, because our logo has a default color
- * embedded inside so it can be used as a favicon */
-.fill-current path {
-  @apply fill-current;
 }
