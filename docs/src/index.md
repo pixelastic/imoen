@@ -15,3 +15,4 @@ const lqip = await imoen.lqip('./path/to/file.png')
 const dimensions = await imoen.dimensions('./path/to/file.png')
 
 // All method also work with urls
+```
