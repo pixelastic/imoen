@@ -1,5 +1,7 @@
 {
   "productionUrl": "https://projects.pixelastic.com/imoen/",
+  "description": "Create LQIP (Low Quality Image Placeholder) from images",
   "title": "imoen",
-  "twitter": "pixelastic"
+  "twitter": "pixelastic",
+  "favicon": "assets/logo.svg"
 }

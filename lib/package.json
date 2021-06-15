@@ -4,6 +4,7 @@
   },
   "files": ["*.js"],
   "homepage": "https://projects.pixelastic.com/imoen/",
+  "description": "Create LQIP (Low Quality Image Placeholder) from images",
   "license": "MIT",
   "main": "main.js",
   "name": "imoen",
