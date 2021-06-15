@@ -1,24 +1,29 @@
 {
+  "description": "imoen monorepo",
   "devDependencies": {
-    "aberlaas": "1.23.0"
+    "aberlaas": "1.23.0",
+    "lerna": "4.0.0"
   },
-  "engines": {
-    "node": ">=14.17.0"
-  },
-  "files": [
-    "lib/*.js"
-  ],
-  "license": "MIT",
-  "main": "lib/main.js",
-  "name": "imoen",
+  "files": [],
+  "homepage": "https://projects.pixelastic.com/imoen/",
+  "keywords": [],
+  "name": "imoen-monorepo",
+  "private": true,
   "scripts": {
+    "build": "./scripts/docs/build",
+    "build:prod": "./scripts/docs/build-prod",
     "ci": "./scripts/ci",
+    "cms": "./scripts/docs/cms",
     "husky:precommit": "./scripts/husky-precommit",
     "lint": "./scripts/lint",
     "lint:fix": "./scripts/lint-fix",
     "release": "./scripts/release",
-    "test": "./scripts/test",
-    "test:watch": "./scripts/test-watch"
+    "serve": "./scripts/docs/serve",
+    "test": "./scripts/lib/test",
+    "test:watch": "./scripts/lib/test-watch"
   },
-  "version": "0.0.2"
+  "workspaces": [
+    "lib",
+    "docs"
+  ]
 }

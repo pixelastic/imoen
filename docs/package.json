@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "norska": "2.3.5",
+    "norska-theme-docs": "4.0.0"
+  },
+  "files": [],
+  "homepage": "https://projects.pixelastic.com/imoen/",
+  "keywords": [],
+  "name": "imoen-docs",
+  "private": true,
+  "scripts": {
+    "build": "../scripts/docs/build",
+    "build:prod": "../scripts/docs/build-prod",
+    "cms": "../scripts/docs/cms",
+    "lint": "../scripts/docs/lint",
+    "lint:fix": "../scripts/docs/lint-fix",
+    "serve": "../scripts/docs/serve"
+  },
+  "version": "0.0.2"
+}
