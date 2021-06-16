@@ -22,6 +22,7 @@
   },
   "version": "0.0.2",
   "dependencies": {
+    "firost": "2.13.1",
     "sharp": "0.28.3"
   }
 }
