@@ -22,8 +22,7 @@
   },
   "version": "0.0.2",
   "dependencies": {
-    "firost": "2.13.1",
-    "is-url-superb": "5.0.0",
+    "firost": "2.14.0",
     "sharp": "0.28.3"
   },
   "devDependencies": {
