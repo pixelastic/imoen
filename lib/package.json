@@ -2,7 +2,9 @@
   "engines": {
     "node": ">=14.17.0"
   },
-  "files": ["*.js"],
+  "files": [
+    "*.js"
+  ],
   "homepage": "https://projects.pixelastic.com/imoen/",
   "description": "Create LQIP (Low Quality Image Placeholder) from images",
   "license": "MIT",
@@ -18,5 +20,8 @@
     "test": "../scripts/lib/test",
     "test:watch": "../scripts/lib/test-watch"
   },
-  "version": "0.0.2"
+  "version": "0.0.2",
+  "dependencies": {
+    "sharp": "0.28.3"
+  }
 }
