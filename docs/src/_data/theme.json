@@ -1,7 +1,7 @@
 {
   "navigation": [
     {
-      "links": ["lqip", "dimensions"],
+      "links": ["dimensions", "lqip"],
       "name": "Methods"
     }
   ]
