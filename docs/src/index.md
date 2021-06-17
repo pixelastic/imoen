@@ -14,7 +14,7 @@ const lqip = await imoen.lqip('./path/to/file.png')
 // Returns a { width, height } object
 const dimensions = await imoen.dimensions('./path/to/file.png')
 
-// All method also work with urls
+// All methods also work with urls
 ```
 
 <!--
