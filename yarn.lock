@@ -12093,12 +12093,12 @@ norska-theme-default@^2.4.0:
   resolved "https://registry.yarnpkg.com/norska-theme-default/-/norska-theme-default-2.4.0.tgz#ea5694408b3528beb55abf4a9823f1a12c1b3088"
   integrity sha512-HOFnd6l2y2f9DEPwhKo2h8uvXmCjIW7qT9SgLJAzqQARpQAncR8zPMbbShA4beZhhkfsHHtrnIDDd3YnJyMIpg==
 
-norska-theme-docs@5.0.0:
-  version "5.0.0"
-  resolved "https://registry.npmjs.org/norska-theme-docs/-/norska-theme-docs-5.0.0.tgz#cbfdc01e9549bf6fea2f6c27c6590442ca741241"
-  integrity sha512-9p/8Pch2rAT1TwSa8VsOEA8BR2AnrQ9zZwXAVbMnaoWXSggQRGtYvWCLA9XtVSmKQIznU7PC+UPG2Xcd4ekMCQ==
+norska-theme-docs@5.0.1:
+  version "5.0.1"
+  resolved "https://registry.npmjs.org/norska-theme-docs/-/norska-theme-docs-5.0.1.tgz#20ba20f8512a1f6dffc00ea155bb5eee092cf7b6"
+  integrity sha512-9w5kWtjRBdXiB1CvLOqHKYqFys0XutOCm5wx/TaXcX018LWV5hcB4biHv71l8uQVUc1K/kVpColbhNyrmAC5nQ==
   dependencies:
-    firost "2.13.1"
+    firost "2.14.0"
     parse-github-repo-url "1.4.1"
 
 norska@2.4.0:
