@@ -1,0 +1,34 @@
+//- ---
+//- title: Examples
+//- ---
+
+block content
+  for example in data.examples
+    - const { basename, lqip, width, height } = example
+    .flex.flex-wrap.border-001.border-gray.mb-2.text-2
+      .flex-1
+        .flex-none.bg-gray.white.text-center Original file
+        .flex-auto.flex.flex-center.p-1.border-r-001
+          img(src=`../examples/${basename}`)
+      .flex-1.flex.flex-col
+        .flex-none.bg-gray.white.text-center LQIP
+        .flex-auto.flex.flex-center.p-1.border-r-001
+          img(src=`data:image/png;base64,${lqip}`)
+      .flex-1.flex.flex-col
+        .bg-gray.white.text-center Stretched LQIP
+        .flex-auto.flex.flex-center.p-1.border-r-001
+          img(
+            src=`data:image/png;base64,${lqip}` 
+            width=width 
+            height=height
+          )
+      .flex-1.flex.flex-col
+        .bg-gray.white.text-center Stretched and blurred LQIP
+        .flex-auto.flex.flex-center.p-1
+          img(
+            src=`data:image/png;base64,${lqip}` 
+            width=width 
+            height=height
+            style="filter:blur(5px)"
+          )
+

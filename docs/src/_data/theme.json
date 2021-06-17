@@ -1,6 +1,10 @@
 {
   "navigation": [
     {
+      "links": [{ "title": "Examples", "href": "examples" }],
+      "name": "Overview"
+    },
+    {
       "links": ["dimensions", "lqip"],
       "name": "Methods"
     }
