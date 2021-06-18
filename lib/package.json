@@ -20,7 +20,7 @@
     "test": "../scripts/lib/test",
     "test:watch": "../scripts/lib/test-watch"
   },
-  "version": "0.2.0",
+  "version": "0.3.0",
   "dependencies": {
     "firost": "2.14.0",
     "sharp": "0.28.3"
