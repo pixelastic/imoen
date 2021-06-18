@@ -5,7 +5,7 @@
       "name": "Overview"
     },
     {
-      "links": ["dimensions", "lqip"],
+      "links": ["imoen", "dimensions", "lqip"],
       "name": "Methods"
     }
   ]

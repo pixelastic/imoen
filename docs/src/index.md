@@ -4,33 +4,18 @@ title: Low quality image placeholders
 
 > Heya! It's me, Imoen!
 
-Image processing for nodejs.
+Quickly generate base64 blurry placeholders for your images.
 
 ```js
 const imoen = require('imoen');
+const filepath = './path/to/file.png');
 
-// Get a base64 encoded string usable as an lqip
-const lqip = await imoen.lqip('./path/to/file.png')
-// Returns a { width, height } object
-const dimensions = await imoen.dimensions('./path/to/file.png')
+const { width, height, base64 } = await imoen(filepath);
+// <img src="${base64}" height="${height}" width="${width}" style="filter:blur(5px)" />
 
-// All methods also work with urls
+// You can call methods individually if you need individual parts
+const { width, height } = await imoen.dimensions(filepath)
+// This will return the base64 string, without the "data:image/png;base64,"
+// prefix
+const lqip = await imoen.lqip(filepath);
 ```
-
-<!--
- ## Examples
-
- ```js
- const picturePath = "./imp.png";
- const { width, height } = await imoen.dimensions(picturePath);
- const placeholder = await imoen.lqip(picturePath);
- ```
-
- ```html
- <img src="data:image/png;base64,{placeholder}" width="{width}" height="{height}"
- style="filter:blur(5px)" />
- ```
--->
-
-
-
