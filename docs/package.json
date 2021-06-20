@@ -2,7 +2,7 @@
   "dependencies": {
     "firost": "2.14.0",
     "golgoth": "2.0.0",
-    "norska": "2.4.0",
+    "norska": "2.4.1",
     "norska-theme-docs": "5.0.1"
   },
   "files": [],
