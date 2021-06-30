@@ -1,4 +1,8 @@
 {
+  "docSearch": {
+    "apiKey": "ff81cae80a5bbad49c143fea45844a7a",
+    "indexName": "pixelastic_imoen"
+  },
   "navigation": [
     {
       "links": [{ "title": "Examples", "href": "examples" }],
