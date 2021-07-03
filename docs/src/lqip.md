@@ -23,8 +23,9 @@ console.info(remotePlaceholder); // iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAYAAAB4k...
 
 ## Notes
 
-The returned values does not include the base64 prefix, so if you'd like to
-display it in an webpage, you should add `data:image/png;base64,` before it.
+The returned values do not include the base64 prefix, so if you'd like to
+display it in an webpage, you should add (for example, depending on the image
+type) `data:image/png;base64,` before it.
 
 The best results are achieved when the placeholder is displayed with dimensions
 equal to the original picture dimensions, and with a blur effect applied

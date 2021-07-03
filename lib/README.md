@@ -5,9 +5,9 @@
 
 # imoen
 
-> Heya! It's me, Imoen!
+Generate base64 blurry placeholders for your images.
 
-Quickly generate base64 blurry placeholders for your images.
+Check the [online examples](https://projects.pixelastic.com/imoen/examples/).
 
 ```js
 const imoen = require('imoen');

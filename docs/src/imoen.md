@@ -3,7 +3,7 @@ title: imoen
 ---
 
 <div class="lead">
-  Returns an object will all data required to display a blurry placeholder of
+  Returns an object with all metadata required to display a blurry placeholder of
   any image.
 </div>
 

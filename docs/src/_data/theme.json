@@ -5,12 +5,13 @@
   },
   "navigation": [
     {
-      "links": [{ "title": "Examples", "href": "examples" }],
+      "links": [
+        { "title": "imoen()", "href": "imoen" },
+        { "title": "dimensions()", "href": "dimensions" },
+        { "title": "lqip()", "href": "lqip" },
+        { "title": "Examples", "href": "examples" }
+      ],
       "name": "Overview"
-    },
-    {
-      "links": ["imoen", "dimensions", "lqip"],
-      "name": "Methods"
     }
   ]
 }
