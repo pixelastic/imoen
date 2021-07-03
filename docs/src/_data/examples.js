@@ -2,10 +2,10 @@ const imoen = require('../../../lib/');
 const glob = require('firost/glob');
 const pMap = require('golgoth/pMap');
 const path = require('path');
+const _ = require('golgoth/lodash');
 
 module.exports = async () => {
   const filepaths = await glob('src/examples/*');
-  console.info(filepaths);
 
   const examples = [];
   await pMap(filepaths, async (filepath) => {
@@ -15,5 +15,5 @@ module.exports = async () => {
     const lqip = await imoen.lqip(filepath);
     examples.push({ basename, slug, lqip, width, height });
   });
-  return examples;
+  return _.sortBy(examples, 'slug');
 };
