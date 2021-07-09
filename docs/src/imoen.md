@@ -21,3 +21,9 @@ And use it like this:
 ```html
 <img src="${base64}" height="${height}" width="${width}" style="filter:blur(5px)" />
 ```
+
+## Other metadata
+
+`imoen()` also returns the following information:
+
+- `filesize`: File size in bytes

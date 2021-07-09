@@ -9,6 +9,7 @@
         { "title": "imoen()", "href": "imoen" },
         { "title": "dimensions()", "href": "dimensions" },
         { "title": "lqip()", "href": "lqip" },
+        { "title": "filesize()", "href": "filesize" },
         { "title": "Examples", "href": "examples" }
       ],
       "name": "Overview"

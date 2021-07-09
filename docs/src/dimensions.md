@@ -7,7 +7,7 @@ title: dimensions
   <code>height</code> properties
 </div>
 
-`await dimensions(target)`
+`await imoen.dimensions(target)`
 
 ## Examples
 

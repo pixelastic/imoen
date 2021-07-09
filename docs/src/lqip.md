@@ -7,7 +7,7 @@ title: lqip
   image.
 </div>
 
-`await lqip(target)`
+`await imoen.lqip(target)`
 
 ## Examples
 
