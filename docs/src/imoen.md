@@ -13,13 +13,13 @@ title: imoen
 
 ```js
 // Get all metadata. Works for local files as well as remote URLs
-const { width, height, base64 } = await imoen(target);
+const { width, height, lqip } = await imoen(target);
 ```
 
 And use it like this:
 
 ```html
-<img src="${base64}" height="${height}" width="${width}" style="filter:blur(5px)" />
+<img src="${lqip}" height="${height}" width="${width}" style="filter:blur(5px)" />
 ```
 
 ## Other metadata
