@@ -6,7 +6,7 @@ title: filesize
   Returns the image filesize in bytes
 </div>
 
-`await imoen.filesize(target)`
+`await filesize(target)`
 
 ## Examples
 
