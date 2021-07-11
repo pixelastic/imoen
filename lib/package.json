@@ -21,7 +21,7 @@
     "test": "../scripts/lib/test",
     "test:watch": "../scripts/lib/test-watch"
   },
-  "version": "1.1.0",
+  "version": "1.1.1",
   "dependencies": {
     "firost": "2.16.1",
     "fs-extra": "10.0.0",
