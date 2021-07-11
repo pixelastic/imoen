@@ -10,6 +10,7 @@
         { "title": "dimensions()", "href": "dimensions" },
         { "title": "lqip()", "href": "lqip" },
         { "title": "filesize()", "href": "filesize" },
+        { "title": "hash()", "href": "hash" },
         { "title": "Examples", "href": "examples" }
       ],
       "name": "Overview"

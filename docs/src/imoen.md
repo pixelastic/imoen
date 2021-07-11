@@ -27,3 +27,4 @@ And use it like this:
 `imoen()` also returns the following information:
 
 - `filesize`: File size in bytes
+- `hash`: A unique md5 hash of the file
