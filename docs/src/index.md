@@ -10,12 +10,11 @@ Check the [online examples](https://projects.pixelastic.com/imoen/examples/).
 const imoen = require('imoen');
 const filepath = './path/to/file.png');
 
-const { width, height, base64 } = await imoen(filepath);
-// <img src="${base64}" height="${height}" width="${width}" style="filter:blur(5px)" />
+const { width, height, lqip } = await imoen(filepath);
+// <img src="${lqip}" height="${height}" width="${width}" style="filter:blur(5px)" />
 
 // You can call methods individually if you need individual parts
 const { width, height } = await imoen.dimensions(filepath)
-// This will return the base64 string, without the "data:image/png;base64,"
-// prefix
+// This will return a placeholder, as a base64 string
 const lqip = await imoen.lqip(filepath);
 ```
