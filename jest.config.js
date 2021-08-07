@@ -1,4 +1,4 @@
-const config = require('aberlaas/lib/configs/jest.js');
+const config = require('aberlaas/configs/jest.js');
 const path = require('path');
 
 const globalSetup = path.resolve(__dirname, './lib/jest/globalSetup.js');
