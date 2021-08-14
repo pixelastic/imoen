@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "firost": "2.16.2",
-    "golgoth": "2.0.0",
+    "golgoth": "2.1.0",
     "norska": "2.7.0",
     "norska-theme-docs": "5.0.3"
   },
