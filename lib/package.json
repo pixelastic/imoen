@@ -30,6 +30,6 @@
   },
   "devDependencies": {
     "get-port": "5.1.1",
-    "jest-environment-node": "27.4.4"
+    "jest-environment-node": "27.4.6"
   }
 }
