@@ -25,11 +25,11 @@
   "dependencies": {
     "firost": "2.17.0",
     "fs-extra": "10.1.0",
-    "rev-hash": "3.0.0",
+    "rev-hash": "4.0.0",
     "sharp": "0.30.7"
   },
   "devDependencies": {
-    "get-port": "5.1.1",
-    "jest-environment-node": "27.5.1"
+    "get-port": "6.1.2",
+    "jest-environment-node": "28.1.3"
   }
 }
