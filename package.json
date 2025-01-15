@@ -2,7 +2,7 @@
   "description": "imoen monorepo",
   "devDependencies": {
     "aberlaas": "1.25.1",
-    "lerna": "4.0.0"
+    "lerna": "8.1.9"
   },
   "files": [],
   "homepage": "https://projects.pixelastic.com/imoen/",
