@@ -1,29 +1,33 @@
 {
-  "description": "imoen monorepo",
-  "devDependencies": {
-    "aberlaas": "1.25.1",
-    "lerna": "4.0.0"
-  },
-  "files": [],
-  "homepage": "https://projects.pixelastic.com/imoen/",
-  "keywords": [],
   "name": "imoen-monorepo",
-  "private": true,
-  "scripts": {
-    "build": "./scripts/docs/build",
-    "build:prod": "./scripts/docs/build-prod",
-    "ci": "./scripts/ci",
-    "cms": "./scripts/docs/cms",
-    "husky:precommit": "./scripts/husky-precommit",
-    "lint": "./scripts/lint",
-    "lint:fix": "./scripts/lint-fix",
-    "release": "./scripts/release",
-    "serve": "./scripts/docs/serve",
-    "test": "./scripts/lib/test",
-    "test:watch": "./scripts/lib/test-watch"
-  },
   "workspaces": [
     "lib",
     "docs"
-  ]
+  ],
+  "description": "imoen monorepo",
+  "homepage": "https://projects.pixelastic.com/imoen/",
+  "type": "module",
+  "engines": {
+    "node": ">=18.18.0"
+  },
+  "packageManager": "yarn@4.6.0",
+  "devDependencies": {
+    "aberlaas": "2.13.0",
+    "lerna": "4.0.0"
+  },
+  "scripts": {
+    "build": "./scripts/meta/build",
+    "build:prod": "./scripts/meta/build-prod",
+    "ci": "./scripts/meta/ci",
+    "cms": "./scripts/meta/cms",
+    "husky:precommit": "./scripts/husky-precommit",
+    "lint": "./scripts/meta/lint",
+    "lint:fix": "./scripts/meta/lint-fix",
+    "release": "./scripts/meta/release",
+    "serve": "./scripts/meta/serve",
+    "test": "./scripts/meta/test",
+    "test:watch": "./scripts/meta/test-watch",
+    "compress": "./scripts/meta/compress",
+    "learn": "lerna"
+  }
 }
