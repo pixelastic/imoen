@@ -11,8 +11,10 @@ title: filesize
 ## Examples
 
 ```js
-const filesize = await imoen.filesize('./picture.png');
-if (filesize > 10485760) {
+import { filesize } from 'imoen';
+
+const pictureSize = await filesize('./picture.png');
+if (pictureSize > 10485760) {
   console.info("This file cannot be processed by Cloudinary")
 }
 ```

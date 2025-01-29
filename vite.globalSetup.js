@@ -1,14 +1,18 @@
-import path from 'path';
-import fs from 'fs';
-import http from 'http';
-import { exists } from 'firost';
-import serverPort from './serverPort.js';
+import path from 'node:path';
+import fs from 'node:fs';
+import http from 'node:http';
+import { absolute, exists } from 'firost';
 
-const servePath = './fixtures';
+export const serverPort = 34495;
+const servePath = absolute('<gitRoot>/lib/fixtures');
+let server;
+
 /**
- *
+ * Setup function, when all tests start
+ * We start a server, to return files through HTTP
+ * @returns {Promise} Promise resolving when the server is ready
  */
-export default async function () {
+export async function setup() {
   const onRequest = async function (request, response) {
     // We find a matching file in the fixture path, removing any query
     // string from the url
@@ -29,15 +33,24 @@ export default async function () {
       readStream.pipe(response);
     });
   };
-  const server = http.createServer(onRequest);
+  server = http.createServer(onRequest);
 
   // We wait until the server is ready to receive connections on the port, or
   // stop if it errors
   return await new Promise((resolve, reject) => {
     server.on('error', reject);
     server.listen(serverPort, () => {
-      global.server = server;
       resolve();
     });
+  });
+}
+/**
+ * Teardown function, to run when all tests are done running
+ * @returns {Promise} Promise resolving once the server is closed
+ */
+export async function teardown() {
+  return await new Promise((resolve) => {
+    server.on('close', resolve);
+    server.close();
   });
 }

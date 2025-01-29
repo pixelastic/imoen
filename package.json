@@ -1,5 +1,6 @@
 {
   "name": "imoen-monorepo",
+  "private": true,
   "workspaces": [
     "lib",
     "docs"

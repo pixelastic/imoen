@@ -7,15 +7,17 @@ title: lqip
   image.
 </div>
 
-`await imoen.lqip(target)`
+`await lqip(target)`
 
 ## Examples
 
 ```js
-const localPlaceholder = await imoen.lqip('./picture.png');
+import { lqip } from 'imoen';
+
+const localPlaceholder = await lqip('./picture.png');
 console.info(localPlaceholder); // data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAYAAAB4k...
 
-const remotePlaceholder = await imoen.lqip(
+const remotePlaceholder = await lqip(
   'https://preview.redd.it/7q6bt9fq4es41.jpg?auto=webp&s=acdad5f740ecf45a262eca2b5d41fe96760bd90f'
 );
 console.info(remotePlaceholder); // data:image/jpg;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAYAAAB4k...

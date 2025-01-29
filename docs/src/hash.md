@@ -7,11 +7,13 @@ title: hash
   busting.
 </div>
 
-`await imoen.hash(target)`
+`await hash(target)`
 
 ## Examples
 
 ```js
-const hash = await imoen.hash('./picture.png');
-const url = `http://www.pixelastic.com/picture.png?hash=${hash}`
+import { hash } from 'imoen';
+
+const revv = await hash('./picture.png');
+const url = `http://www.pixelastic.com/picture.png?revv=${revv}`
 ```
