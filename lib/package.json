@@ -19,7 +19,7 @@
   },
   "main": "./main.js",
   "dependencies": {
-    "firost": "4.8.0",
+    "firost": "4.9.0",
     "fs-extra": "11.3.0",
     "sharp": "0.33.5"
   },
