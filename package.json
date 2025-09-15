@@ -14,7 +14,7 @@
   "packageManager": "yarn@4.9.4",
   "devDependencies": {
     "aberlaas": "2.13.0",
-    "lerna": "4.0.0"
+    "lerna": "8.2.4"
   },
   "scripts": {
     "build": "./scripts/meta/build",
