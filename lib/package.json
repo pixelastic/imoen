@@ -24,8 +24,8 @@
     "sharp": "0.34.3"
   },
   "devDependencies": {
-    "get-port": "5.1.1",
-    "jest-environment-node": "27.5.1"
+    "get-port": "7.1.0",
+    "jest-environment-node": "30.1.2"
   },
   "scripts": {
     "build": "../scripts/local/build",
