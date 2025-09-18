@@ -21,7 +21,7 @@
   "dependencies": {
     "firost": "4.9.0",
     "fs-extra": "11.3.2",
-    "sharp": "0.34.3"
+    "sharp": "0.34.4"
   },
   "devDependencies": {
     "get-port": "5.1.1",
