@@ -8,12 +8,10 @@
   "sideEffects": false,
   "license": "MIT",
   "engines": {
-    "node": ">=18.18.0"
+    "node": ">=22.18.0"
   },
   "packageManager": "yarn@4.13.0",
-  "files": [
-    "*.js"
-  ],
+  "files": ["*.js"],
   "exports": {
     ".": "./main.js"
   },

@@ -1,15 +1,12 @@
 {
   "name": "imoen-monorepo",
   "private": true,
-  "workspaces": [
-    "lib",
-    "docs"
-  ],
+  "workspaces": ["lib", "docs"],
   "description": "imoen monorepo",
   "homepage": "https://projects.pixelastic.com/imoen/",
   "type": "module",
   "engines": {
-    "node": ">=18.18.0"
+    "node": ">=22.18.0"
   },
   "packageManager": "yarn@4.13.0",
   "devDependencies": {
