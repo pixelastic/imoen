@@ -14604,7 +14604,7 @@ __metadata:
     firost: "npm:5.11.0"
     fs-extra: "npm:11.3.4"
     get-port: "npm:5.1.1"
-    golgoth: "npm:3.0.0"
+    golgoth: "npm:3.1.0"
     jest-environment-node: "npm:27.5.1"
     sharp: "npm:0.34.5"
   languageName: unknown
