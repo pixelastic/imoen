@@ -1,10 +1,10 @@
-import path from 'node:path';
 import fs from 'node:fs';
 import http from 'node:http';
-import { absolute, exists } from 'firost';
+import path from 'node:path';
+import { exists, gitRoot } from 'firost';
 
 export const serverPort = 34495;
-const servePath = absolute('<gitRoot>/lib/fixtures');
+const servePath = `${gitRoot()}/lib/fixtures`;
 let server;
 
 /**

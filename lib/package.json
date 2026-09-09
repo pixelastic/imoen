@@ -1,10 +1,14 @@
 {
   "name": "imoen",
   "version": "2.0.0",
-  "description": "Create LQIP (Low Quality Image Placeholder) from images",
-  "repository": "pixelastic/imoen",
-  "homepage": "https://projects.pixelastic.com/imoen/",
   "type": "module",
+  "description": "Create LQIP (Low Quality Image Placeholder) from images",
+  "author": "Tim Carry <tim@pixelastic.com>",
+  "homepage": "https://projects.pixelastic.com/imoen/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pixelastic/imoen"
+  },
   "sideEffects": false,
   "license": "MIT",
   "engines": {
@@ -16,26 +20,27 @@
     ".": "./main.js"
   },
   "main": "./main.js",
-  "dependencies": {
-    "firost": "4.9.0",
-    "fs-extra": "11.3.4",
-    "sharp": "0.34.5"
-  },
   "devDependencies": {
     "get-port": "5.1.1",
     "jest-environment-node": "27.5.1"
   },
+  "dependencies": {
+    "firost": "5.11.0",
+    "fs-extra": "11.3.4",
+    "golgoth": "3.0.0",
+    "sharp": "0.34.5"
+  },
   "scripts": {
     "build": "../scripts/local/build",
     "build:prod": "../scripts/local/build-prod",
+    "ci": "../scripts/local/ci",
+    "cms": "../scripts/local/cms",
+    "compress": "../scripts/local/compress",
     "lint": "../scripts/local/lint",
     "lint:fix": "../scripts/local/lint-fix",
     "release": "../scripts/local/release",
     "serve": "../scripts/local/serve",
     "test": "../scripts/local/test",
-    "test:watch": "../scripts/local/test-watch",
-    "cms": "../scripts/local/cms",
-    "ci": "../scripts/local/ci",
-    "compress": "../scripts/local/compress"
+    "test:watch": "../scripts/local/test-watch"
   }
 }

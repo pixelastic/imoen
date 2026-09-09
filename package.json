@@ -1,16 +1,17 @@
 {
   "name": "imoen-monorepo",
   "private": true,
+  "type": "module",
   "workspaces": ["lib", "docs"],
   "description": "imoen monorepo",
   "homepage": "https://projects.pixelastic.com/imoen/",
-  "type": "module",
   "engines": {
     "node": ">=22.18.0"
   },
-  "packageManager": "yarn@4.13.0",
+  "packageManager": "yarn@4.18.0",
   "devDependencies": {
-    "aberlaas": "2.13.0",
+    "aberlaas": "2.39.0",
+    "firost": "5.11.0",
     "lerna": "4.0.0"
   },
   "scripts": {
@@ -18,14 +19,14 @@
     "build:prod": "./scripts/meta/build-prod",
     "ci": "./scripts/meta/ci",
     "cms": "./scripts/meta/cms",
+    "compress": "./scripts/meta/compress",
     "husky:precommit": "./scripts/husky-precommit",
+    "learn": "lerna",
     "lint": "./scripts/meta/lint",
     "lint:fix": "./scripts/meta/lint-fix",
     "release": "./scripts/meta/release",
     "serve": "./scripts/meta/serve",
     "test": "./scripts/meta/test",
-    "test:watch": "./scripts/meta/test-watch",
-    "compress": "./scripts/meta/compress",
-    "learn": "lerna"
+    "test:watch": "./scripts/meta/test-watch"
   }
 }
