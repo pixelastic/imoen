@@ -13,7 +13,7 @@
   },
   "packageManager": "yarn@4.18.0",
   "devDependencies": {
-    "aberlaas": "2.39.0",
+    "aberlaas": "2.39.1",
     "firost": "5.11.0"
   },
   "scripts": {
