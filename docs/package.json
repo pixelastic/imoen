@@ -11,15 +11,17 @@
   "name": "imoen-docs",
   "private": true,
   "scripts": {
-    "build": "../scripts/docs/build",
-    "build:prod": "../scripts/docs/build-prod",
-    "cms": "../scripts/docs/cms",
-    "lint": "../scripts/docs/lint",
-    "lint:fix": "../scripts/docs/lint-fix",
-    "release": "../scripts/release",
-    "serve": "../scripts/docs/serve",
-    "test": "../scripts/lib/test",
-    "test:watch": "../scripts/lib/test-watch"
+    "build": "cd .. && ./scripts/build",
+    "build:prod": "cd .. && ./scripts/build-prod",
+    "ci": "cd .. && ./scripts/ci",
+    "cms": "cd .. && ./scripts/cms",
+    "compress": "cd .. && ./scripts/compress",
+    "lint": "cd .. && ./scripts/lint",
+    "lint:fix": "cd .. && ./scripts/lint-fix",
+    "release": "cd .. && ./scripts/release",
+    "serve": "cd .. && ./scripts/serve",
+    "test": "cd .. && ./scripts/test",
+    "test:watch": "cd .. && ./scripts/test-watch"
   },
   "version": "2.0.0"
 }

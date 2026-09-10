@@ -14,22 +14,19 @@
   "packageManager": "yarn@4.18.0",
   "devDependencies": {
     "aberlaas": "2.39.0",
-    "firost": "5.11.0",
-    "lerna": "4.0.0"
+    "firost": "5.11.0"
   },
   "scripts": {
-    "build": "./scripts/meta/build",
-    "build:prod": "./scripts/meta/build-prod",
-    "ci": "./scripts/meta/ci",
-    "cms": "./scripts/meta/cms",
-    "compress": "./scripts/meta/compress",
-    "husky:precommit": "./scripts/husky-precommit",
-    "learn": "lerna",
-    "lint": "./scripts/meta/lint",
-    "lint:fix": "./scripts/meta/lint-fix",
-    "release": "./scripts/meta/release",
-    "serve": "./scripts/meta/serve",
-    "test": "./scripts/meta/test",
-    "test:watch": "./scripts/meta/test-watch"
+    "build": "./scripts/build",
+    "build:prod": "./scripts/build-prod",
+    "ci": "./scripts/ci",
+    "cms": "./scripts/cms",
+    "compress": "./scripts/compress",
+    "lint": "./scripts/lint",
+    "lint:fix": "./scripts/lint-fix",
+    "release": "./scripts/release",
+    "serve": "./scripts/serve",
+    "test": "./scripts/test",
+    "test:watch": "./scripts/test-watch"
   }
 }

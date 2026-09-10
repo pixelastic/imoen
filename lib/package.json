@@ -34,16 +34,16 @@
     "sharp": "0.34.5"
   },
   "scripts": {
-    "build": "../scripts/local/build",
-    "build:prod": "../scripts/local/build-prod",
-    "ci": "../scripts/local/ci",
-    "cms": "../scripts/local/cms",
-    "compress": "../scripts/local/compress",
-    "lint": "../scripts/local/lint",
-    "lint:fix": "../scripts/local/lint-fix",
-    "release": "../scripts/local/release",
-    "serve": "../scripts/local/serve",
-    "test": "../scripts/local/test",
-    "test:watch": "../scripts/local/test-watch"
+    "build": "cd .. && ./scripts/build",
+    "build:prod": "cd .. && ./scripts/build-prod",
+    "ci": "cd .. && ./scripts/ci",
+    "cms": "cd .. && ./scripts/cms",
+    "compress": "cd .. && ./scripts/compress",
+    "lint": "cd .. && ./scripts/lint",
+    "lint:fix": "cd .. && ./scripts/lint-fix",
+    "release": "cd .. && ./scripts/release",
+    "serve": "cd .. && ./scripts/serve",
+    "test": "cd .. && ./scripts/test",
+    "test:watch": "cd .. && ./scripts/test-watch"
   }
 }
