@@ -23,8 +23,8 @@
   },
   "main": "./main.js",
   "devDependencies": {
-    "get-port": "5.1.1",
-    "jest-environment-node": "27.5.1"
+    "get-port": "7.2.0",
+    "jest-environment-node": "30.5.1"
   },
   "dependencies": {
     "firost": "5.11.0",
