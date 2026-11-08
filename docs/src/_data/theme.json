@@ -11,6 +11,8 @@
         { "title": "lqip()", "href": "lqip" },
         { "title": "filesize()", "href": "filesize" },
         { "title": "hash()", "href": "hash" },
+        { "title": "resize()", "href": "resize" },
+        { "title": "convert()", "href": "convert" },
         { "title": "Examples", "href": "examples" }
       ],
       "name": "Overview"
