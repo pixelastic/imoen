@@ -1,3 +1,20 @@
+## v3.1.0
+
+[compare changes](https://github.com/pixelastic/imoen/compare/v3.0.0...v3.1.0)
+
+### Features
+
+- **convert:** Add convert to change image format by destination extension
+  ([88dfcc1](https://github.com/pixelastic/imoen/commit/88dfcc1))
+- **resize:** Add resize function to scale images to pixel dimensions or
+  percentage ratios
+  ([6ec5ca6](https://github.com/pixelastic/imoen/commit/6ec5ca6))
+
+### Bug Fixes
+
+- **lib:** Apply EXIF orientation when reading images
+  ([ddc1501](https://github.com/pixelastic/imoen/commit/ddc1501))
+
 ## v3.0.0
 
 [compare changes](https://github.com/pixelastic/imoen/compare/v2.0.0...v3.0.0)
