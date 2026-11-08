@@ -4,4 +4,5 @@
 
 ### Features
 
-- **semanticPalette:** Add semantic color role extraction from images ([3d54853](https://github.com/pixelastic/imoen/commit/3d54853))
+- **semanticPalette:** Add semantic color role extraction from images
+  ([3d54853](https://github.com/pixelastic/imoen/commit/3d54853))

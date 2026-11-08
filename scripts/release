@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 set -e
 
-yarn run aberlaas release "$@"
+node_modules/.bin/aberlaas release "$@"

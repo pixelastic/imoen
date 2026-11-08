@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 set -e
 
-yarn run aberlaas test --watch "$@"
+node_modules/.bin/aberlaas test --watch "$@"

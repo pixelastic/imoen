@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 set -e
 
-yarn run aberlaas lint --fix "$@"
+node_modules/.bin/aberlaas lint --fix "$@"

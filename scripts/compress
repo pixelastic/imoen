@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 set -e
 
-yarn run aberlaas compress "$@"
+node_modules/.bin/aberlaas compress "$@"

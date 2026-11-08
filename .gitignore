@@ -15,11 +15,6 @@ npm-debug.log
 yarn-error.log
 *~
 
-# Plans
-plans/*/ralph.json
-plans/*/scaffold
-plans/*/COMMIT_HINT.md
-
 # Tool directories
 .claude/
 .cursor/
