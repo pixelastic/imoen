@@ -1,15 +1,16 @@
 {
+  "name": "imoen-docs",
+  "version": "2.0.0",
+  "private": true,
+  "type": "commonjs",
+  "description": "Documentation website for imoen",
+  "homepage": "https://projects.pixelastic.com/imoen/",
   "dependencies": {
-    "firost": "4.9.0",
-    "golgoth": "3.1.0",
+    "firost": "5.11.0",
+    "golgoth": "4.0.0",
     "norska": "2.10.0",
     "norska-theme-docs": "5.0.3"
   },
-  "files": [],
-  "homepage": "https://projects.pixelastic.com/imoen/",
-  "keywords": [],
-  "name": "imoen-docs",
-  "private": true,
   "scripts": {
     "build": "cd .. && ./scripts/build",
     "build:prod": "cd .. && ./scripts/build-prod",
@@ -22,6 +23,5 @@
     "serve": "cd .. && ./scripts/serve",
     "test": "cd .. && ./scripts/test",
     "test:watch": "cd .. && ./scripts/test-watch"
-  },
-  "version": "2.0.0"
+  }
 }
