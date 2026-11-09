@@ -23,9 +23,6 @@
     ".": "./main.js"
   },
   "main": "./main.js",
-  "devDependencies": {
-    "jest-environment-node": "27.5.1"
-  },
   "dependencies": {
     "firost": "5.11.0",
     "fs-extra": "11.4.1",
