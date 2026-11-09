@@ -13126,7 +13126,6 @@ __metadata:
   dependencies:
     firost: "npm:5.11.0"
     fs-extra: "npm:11.4.1"
-    get-port: "npm:5.1.1"
     golgoth: "npm:4.0.0"
     jest-environment-node: "npm:27.5.1"
     node-vibrant: "npm:4.0.4"

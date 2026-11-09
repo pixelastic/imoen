@@ -24,7 +24,6 @@
   },
   "main": "./main.js",
   "devDependencies": {
-    "get-port": "5.1.1",
     "jest-environment-node": "27.5.1"
   },
   "dependencies": {
