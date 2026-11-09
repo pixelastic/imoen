@@ -1,3 +1,9 @@
+## v3.1.2
+
+[compare changes](https://github.com/pixelastic/imoen/compare/v3.1.1...v3.1.2)
+
+Dummy release, nothing more than 3.1.0, but to test the release script.
+
 ## v3.1.1
 
 [compare changes](https://github.com/pixelastic/imoen/compare/v3.1.0...v3.1.1)

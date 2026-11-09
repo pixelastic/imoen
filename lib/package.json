@@ -1,6 +1,6 @@
 {
   "name": "imoen",
-  "version": "3.1.1",
+  "version": "3.1.2",
   "type": "module",
   "description": "Create LQIP (Low Quality Image Placeholder) from images",
   "author": "Tim Carry <tim@pixelastic.com>",
