@@ -1,3 +1,10 @@
+## v3.2.0
+
+[compare changes](https://github.com/pixelastic/imoen/compare/v3.1.2...v3.2.0)
+
+Drop `node-vibrant`, as it depends on `punycode` which throws an error on latest
+node version.
+
 ## v3.1.2
 
 [compare changes](https://github.com/pixelastic/imoen/compare/v3.1.1...v3.1.2)
